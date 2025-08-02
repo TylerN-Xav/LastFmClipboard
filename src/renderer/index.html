@@ -9,8 +9,13 @@
   </head>
 
   <body>
-    
+    <label for="name">Last.fm Username: </label>
+    <input type="text" id="name" name="name" size="15" />
 
+    <br />
+
+    <label for="toggle">Turn on: </label>
+    <input type="button" id="toggle" name="toggle" onclick="copyUserSong()" />
 
     <script type="module" src="./src/renderer.js"></script>
   </body>
